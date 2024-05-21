@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: rgb(139, 182, 141);
+        }
+
+        .content {
+            text-align: center;
+            background-color: antiquewhite;
+            color: blueviolet;
+
+        }
+
+        .button_container {
+            /* margin: 5px; */
+            padding: 50px;
+
+        }
+
+        .button_su {
+            padding: 40px;
+            background: #000;
+        }
+
+
+
+
+
+
+        .main-div{
+
+/* padding: 40px; */
+
+        }
+
+
+#box{
+    /* display: block; */
+position: absolute; /*is use karne ke bad kahi bhi utha ke le ja sakte ho div ko image ko*/
+
+    left: 600px;
+    width: 142px;
+    top: 223px;
+    padding-top: 117px;
+background-color: #000;
+}
+
+
+
+
+.main-div{
+    position: absolute;
+    left: 30%;
+   top: 20%; 
+}
+
+
+
+.effect-1{
+    position: absolute;
+    left: 30%;
+    padding: 4px;
+}
+
+.main{
+    position: absolute;
+    left: 40%;
+   top: 20%; 
+   padding: 4px;
+}
+
+.btn{
+    position: absolute;
+    left: 40%;
+    padding: 4px;
+
+}
+    </style>
+</head>
+
+<body>
+
+    <!-- Event------------->
+
+    <!-- 
+    <div class="content">
+        <h1>Diffrent event type in js
+        </h1> -->
+
+
+
+    <!-- frist way of writting funcation   -->
+    <!-- 
+        <div class="button_container">
+            <div class="button_su">
+                <span class="su_button_cricle">
+                    <a href="#" class="button_su_inner" onclick="alert('this is not for use ')">
+                        <span class="buton_text_container"> simple inline areat()</span></a>
+                </span>
+            </div> -->
+
+
+
+    <!-- second way to writting fun   -->
+
+    <!-- <div class="button_container">
+                <div class="button_su">
+                    <span class="su_button_cricle">5
+                        <a href="#" class="button_su_inner" onclick="callingfun()">
+                            <span class="buton_text_container"> By calling a funcation</span></a>
+                    </span>
+                </div> -->
+
+
+
+
+
+    <!-- third way to writting fun   -->
+    <!-- <div class="button_container">
+                    <div class="button_su">
+                        <span class="su_button_cricle">
+                            <a href="#" class="button_su_inner" id="thirdway">
+                                <span class="buton_text_container">inline event</span></a>
+                        </span>
+                    </div> -->
+
+
+
+    <!-- ourth way to writting fun  -->
+
+    <!-- <div class="button_container">
+                        <div class="button_su">
+                            <span class="su_button_cricle">
+                                <a href="#" class="button_su_inner" id="b">
+                                    <span class="buton_text_container">event listner</span></a>
+                            </span>
+                        </div>
+                    </div>
+ </div> -->
+
+
+
+
+
+
+
+    <!-- event obj---------------------  -->
+    <!-- 
+    <div class="content">
+        <h1>lets see what is Event Object</h1>
+
+        <div class="button_container">
+            <div class="button_su">
+                <span class="su_button_cricle">
+                   <button style="padding: 40px"><a href="#" class="button_su_inner" id="b">
+                    <span class="buton_text_container"> event listeners</span></a></button> 
+                </span>
+            </div>
+
+
+        </div>
+    </div>  -->
+
+
+
+
+
+    <!-- // MouseEvent in java script  -->
+
+
+
+    <!-- <p id="myp" onmousedown="mouseDown()" onmouseup="mouseUp()"   >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odio fuga commodi fugit adipisci, repudiandae
+        aliquam illum ducimus aspernatur laudantium neque laborum voluptates corrupti, sed expedita, possimus veritatis
+        repellat maxime?</p> -->
+
+
+
+
+
+
+
+
+
+
+ <!-- mouseEnter in html--------------->  
+ <!-- mouseleave ----------------->
+ 
+ 
+
+<!-- 
+        <div class="main-div">
+            <div id="box">
+
+            </div>
+        </div> -->
+
+
+
+        <!-- // keyboardevent in html--------->
+        
+        <!-- <div class="main-div">
+            <div>
+                <p>A function is triggered when the user is pressing a key in the input field </p>
+            <br>
+            <input type="text" class="effect-1" onkeypress="keyPress()" onkeydown="keyDown()" onkeyup="keyUp()">
+            <br>
+            <p id="keys"></p>
+            </div>
+        </div> -->
+
+
+
+<!-- input event-------------->  
+
+<!-- <div class="main">
+    <div>
+        <label for="">your name 👉</label>
+        <input type="text"id="ice">
+        <br><br>
+        <label for="">choose icecream flavor
+          //  <select name="iceCreams" id="iceCreams" onchange="selectElement()"> comment
+            //     or using add event listner       comment
+                <select name="iceCreams" id="iceCreams" >
+
+
+            <option value="">select one</option>
+            <option value="chocalate">chocalate</option>
+            <option value="sardine">sardine</option>
+            <option value="vanilla">vanilla</option>
+            </select>
+        </label>
+<div id="result"></div>
+    </div>
+</div> -->
+
+
+<!-- timing based event in js -------------> 
+<!-- // settimeout()---------->
+
+
+<!-- <div class="main-div">
+    <div>
+        <p>whant to know my name 👉 ?</p>
+        <p id="showstopnum"></p>
+        <br>
+        <button id = "btn">click here
+        </button>
+    </div>
+
+</div> -->
+
+
+
+<!-- clearTimeout-------------> 
+
+
+<!-- <div class="main-div">
+    <div>
+        <p>Click "try it". wait 3 second . the page will alert "hello".</p>
+        <p>Click "stop" to prevent the first fun to execute</p>
+        <p>you must click "stop" before the 2 second are up.</p>
+
+    
+        <button onclick="myVar= setTimeout(myFunction, 1000)">click here
+        </button>
+        <button onclick="clearTimeout(myVar)">stop it
+        </button>
+    </div>
+
+</div> -->
+
+
+
+
+
+<!-- // setInterval -----------> 
+
+<!-- <div class="main">
+    <div>
+        <p>can youstop me when i reach at 5 💔</p>
+        <br>
+        <button id = "btn">start </button>
+        <button id = "btn1">stop</button>
+    </div>
+
+</div> -->
+
+
+
+
+
+
+
+
+</body>
+
+
+
+<script>
+
+
+
+
+//     // 2nd way to writting the fun
+//     const callingfun = () => {
+//         alert('most common way tto writting the funcation');
+//     }
+
+// // 3rd way to writting the fun    isme alert ya console me se ak chalega jo phle likha hoga 
+// const a =document.getElementById('thirdway');
+// a.onclick= function(){
+//     alert('writting the funcation');
+// }
+
+// // a.onclick= function(){
+// //         console.log("hello");
+// // }
+
+
+// // 4th way to writting the fun event listner 
+// const b = document.querySelector('#b');
+// b.addEventListener("click" ,() => {alert('hello1');})  
+
+
+
+
+
+
+// event obj---------------------  -->
+
+
+// const b = document.getElementById("b");
+// const funcheckevent = ()=>{
+// console.log(event);
+// console.log(event.target);
+// console.log(event.type);
+
+// }
+
+
+// b.addEventListener('click', funcheckevent);
+
+
+
+
+
+// MouseEvent in java script ------------------>
+
+
+// mouseDown----->
+
+// function mouseDown(){
+//     document.getElementById('myp').style.color= "blue";
+// }
+
+// // or 
+
+
+
+// mouseUp------->
+// mouseUp=()=>{
+//     document.getElementById('myp').style.color="red";
+// }
+
+// dono tariko se likh sakte h 
+
+
+
+// mouseEnter------->
+
+
+// (java +dsa+oops), python
+// html+css+JS 
+// mongodb + react + nodejs + express 
+
+
+// const mEnter = document.getElementById('box');
+// mEnter.addEventListener('mouseenter',()=>{
+//     mEnter.style.backgroundColor="red";
+//     console.log("Mouse enter bro");
+// });
+
+// // moude leave ---->
+// mEnter.addEventListener('mouseleave',()=>{
+//     mEnter.style.backgroundColor='blue';
+// })
+
+
+// keyboardevent in javascript--------->
+// ye kha a gaye hm 
+
+// const keyPress = ()=>{
+
+    // document.getElementById('keys').innerHTML = `you press ${event.key}and its code ${event.code}`;    //back tik ka use karte h 
+
+// }
+
+// sikawa kare hm garo se kiya 
+// const keyDown =()=>{
+//     document.getElementById('keys').innerHTML="key is down";
+// }
+
+// const keyUp=()=>{
+//     document.getElementById('keys').innerHTML="key is up";
+// }
+
+// goto a.js
+
+
+
+// input events--------- >
+// onchangeevent 
+// const selectElement =()=>{
+//     const inputChange = document.getElementById('ice').value;
+//     const iceCreams = document.getElementById('iceCreams').value;
+// //  console.log(`${inputChange} and ${iceCreams }`);
+//     result.innerHTML = `Mr. ${inputChange} select ${iceCreams} ice-cream flavour`;
+// }
+
+                //  or using add event listner 
+
+//     const iceCreams = document.getElementById('iceCreams');  
+//                iceCreams.addEventListener('change',()=>{
+//                 const inputChange = document.getElementById('ice').value;
+//                 const iceCreams = document.getElementById('iceCreams').value;
+//                  result.innerHTML = `Mr. ${inputChange} select ${iceCreams} ice-cream flavour`;
+//  });
+
+
+
+
+//                timing based event in js ------------->
+// settimeout()---------->
+
+
+// const stopnum = document.querySelector('#showstopnum');
+// const btn = document.querySelector('#btn');
+
+// const showstopnum =()=>{
+
+// stopnum.innerHTML= "Lodding..........🐥"
+
+// setTimeout(()=>{
+//     stopnum.innerHTML="amnesh pal"
+// }, 1000)
+// }
+// btn.addEventListener('click', showstopnum);
+ 
+
+
+
+
+// clearTimeout -------------> event ko rokna clear time out hota h like- -> loadding stop
+
+// function myFunction(){
+//     alert('hello');
+// }
+
+
+
+
+
+
+// setInterval ----------->
+//NOTE --------->  clt +d for change together ------->
+
+// const btn = document.querySelector('#btn');
+// const stopinterval = document.querySelector('#btn1');
+// const a = document.querySelector('p'); 
+// let num = 0;
+// let timref;
+// const showmynum =()=>{
+// a.innerHTML= "Lodding..........🐥";
+// timref=setInterval(()=>{        // <--------------------------- set interval
+//     a.innerHTML= `${num}`;
+//     num++;
+// },2000);
+// }
+// btn.addEventListener('click', showmynum);
+// stopinterval.addEventListener('click',()=>{
+//     clearInterval(timref);      // <----------------------------clear interval
+// })
+
+
+
+
+
+
+
+
+// sise the saf tera mukhada ni 
+</script>
+
+
+</html>
