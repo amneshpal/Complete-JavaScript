@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <!-- <link rel="stylesheet" href=""> -->
+    <script src="main.js"></script>
+    <style> 
+    .bg-black{
+        background-color: aqua;
+        color: brown;
+
+    }
+    </style>
+</head>
+
+<body style="background-color:rgb(26, 25, 24)">
+
+
+     <Script> 
+// var time = prompt("enter the time ");
+// if (time >5  && time < 12 )
+// {
+//     alert("good morning ");
+// }
+// else if (time >12  && time < 17 )
+// {
+// alert("good Afternoon  ");
+// }
+// else if (time >17  && time < 21 )
+// {
+// alert("good evening ");
+// }
+
+
+
+// var fruit =  prompt("Enter the fruit name ");
+// switch(fruit){
+//     case 'Narangi':
+//     console.log('narangi 60 rs kg ');
+//     break;
+     
+//     case 'sabe ':
+//     console.log('sabe 58 rs kg ');
+//     break;    
+        
+//     case 'kele':
+//     console.log('kel 40 rs kg ');
+//     break;    
+        
+//     case 'amrudh':
+//     console.log('Amrudh 70 rs kg ');
+//     break;    
+        
+//     case 'Aam':
+//     console.log('Aam 55 rs kg ');
+//     break;    
+        
+//     case 'papita':
+//     console.log('narangi 600 rs kg ');
+//     default:
+//     console.log( `${fruit}  aaj khatam h `);
+// }
+// console.log("or kuchh chaiye ");
+ 
+// alert("hello")
+  </script>  
+
+    <!-- <div class="bg-black">
+        <h1>fjvnfejrejve</h1>
+<h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, dolore.</h2>
+<h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure debitis deserunt nihil sed excepturi ratione odio exercitationem unde inventore quae.</h1>        <h1 id="title" class="heading">Dom learning  with amnehs pal <span style="display: none;">test text</span> </h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique doloribus voluptatum quam dignissimos,
+            ducimus officia labore incidunt odit reiciendis quae, fuga facilis corrupti? Ducimus enim eos exercitationem
+            deserunt minus tempore?</p>
+    </div>
+<input type="password"> -->
+
+<!-- <ul> -->
+    <!-- <li class="  list-item ">one</li>
+    <li class="  list-item ">two</li>
+    <li class="  list-item ">three</li>
+    <li class="  list-item ">three</li>
+</ul> -->
+
+
+
+<!-- // Create new element in DOM   -->
+<!-- <div class="parent">
+    this is a comment   
+<div class="day">Monday</div>
+<div class="day">tuesday</div>
+<div class="day">Wednesday</div>
+<div class="day">Thursday</div>
+</div> -->
+
+
+
+
+
+
+
+<script>  
+// inspect  karo 
+
+// const parent = document.querySelector('.parent')
+// console.log(parent);
+// console.log(parent.children);
+// console.log(parent.children[1]); //<div class="day">Wednesday</div>
+// console.log(parent.children[1].innerHTML); //tuesday
+
+// for (let i = 0; i < parent.children.length; i++) {
+//          console.log(parent.children[i].innerHTML);
+    
+//  }
+//tuesday o/p
+// main.html:143 Monday
+// main.html:143 tuesday
+// main.html:143 Wednesday
+// main.html:143 Thursday
+
+// parent.children[1].style.color= "orange"
+// console.log(parent.firstElementChild);//<div class="day">Monday</div>
+// console.log(parent.lastElementChild); //<div class="day">Thursday</div>
+
+
+// Create new element in DOM 
+
+
+
+// const dayOne =  document.querySelector('.day')
+// console.log(dayOne)   //<div class="day">Monday</div>
+// console.log(dayOne.parentElement);
+// console.log(dayOne.nextElementSibling)
+
+// console.log("nodes ", parent.childNodes) // 16:43 create a new elemnt in dom code with cai 
+
+
+// New element create kar rhe h 
+
+
+// const div = document.createElement("div")
+// console.log(div);
+// div.className = "main"
+// div.id = Math.round(Math.random()*10 + 1)
+// div.setAttribute("title", "generated title")
+// div.style.backgroundColor ="blue "
+// div.style.padding = "12px"
+// div.innerText = "Amnesh pal"
+// // const addText = document.createTextNode("Amnesh pal ")
+// // div.appendChild(addText)
+// document.body.appendChild(div)
+
+</script>
+<script>
+// edit and remove element in dom ------------------>
+// function addLanguage(langName){
+//     const li =  document.createElement('li');    
+// }
+
+</script>
+
+
+
+
+
+
+
+<!-- 
+<button id="orange">orange</button>
+<button id="green">Green</button> -->
+
+<script>
+
+    // clouser  : ------------> 
+// document.getElementById("orange").onclick=function()
+// {
+//     document.body.style.backgroundColor = "orange"
+// }
+// document.getElementById("green").onclick=function()
+// {
+//  document.body.style.backgroundColor = "green"
+// }
+// agar 500 button ho to line of code jada h jayega isiye hm clouser ka use kargte h 
+
+// clouser   
+
+// function clickHandler(color){
+//  document.body.style.backgroundColor = "green" //  not work 
+
+// return function(){  // fun without name 
+//     document.body.style.backgroundColor = `${color}`  
+// }}
+// document.getElementById("orange").onclick=clickHandler("orange")
+// document.getElementById("green").onclick=clickHandler("green")
+
+</script>
+
+<!-- // 10 What is debouncing and throttling? -->
+
+
+<!-- Debouncing :  -->
+
+<!-- <input type =  "text" id = "search" onkeyup="getData()"> -->
+<!-- <input type =  "text" id = "search" onkeyup="BetterFunction()"> -->
+<!-- <input type =  "text" id = "search" onkeyup="BetterFunction()"> -->
+<!-- <input type =  "text" id = "search" onchange ="BetterFunction()"> -->
+
+
+<!-- Throttling : ------->
+
+<input type =  "text" id = "search" onchange ="BetterFunction()">
+<button id = "myid" onclick="newFun()">hello</button>
+
+
+</body> 
+
+</html>
